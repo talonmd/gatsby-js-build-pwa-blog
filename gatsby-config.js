@@ -18,7 +18,15 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-transformer-remark`, 
-    }
+      resolve: `gatsby-transformer-remark`,
+    },
+    {
+      resolve: `gatsby-source-wordpress`,
+      options: {
+        baseUrl: `practice.codingsrc.com`,
+        protocol: `http`,
+        hostingWPCOM: false,
+      },
+    },
   ],
 }
