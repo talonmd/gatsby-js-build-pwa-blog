@@ -34,5 +34,17 @@ module.exports = {
       },
     },
     `gatsby-plugin-react-helmet`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `GatsbyJS Bootstrap Tutorial`,
+        short_name: `GatsbyJS`,
+        start_url: `/`,
+        background_color: `#f8f9fa`,
+        theme_color: `#ffffff`,
+        display: `standalone`,
+      },
+    },
+    `gatsby-plugin-offline`,
   ],
 }
