@@ -28,6 +28,7 @@ module.exports = {
       resolve: `gatsby-source-wordpress`,
       options: {
         baseUrl: `practice.codingsrc.com`,
+        //baseUrl: `botanicalsdesign.com`, takes FOREVER to get through auth, but works
         protocol: `http`,
         hostingWPCOM: false,
       },
